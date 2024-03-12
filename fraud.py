@@ -11,7 +11,7 @@ import streamlit as st
 import warnings
 
 # Load the model
-loaded_model = pickle.load(open('E:/Manasa/trained_model.sav', 'rb'))
+loaded_model = pickle.load(open('trained_model.sav', 'rb'))
 
 # Suppressing warnings related to feature names
 warnings.filterwarnings("ignore", message="X does not have valid feature names")
